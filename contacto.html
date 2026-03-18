@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="page-bg" aria-hidden="true"></div>
+
     <!-- HEADER / NAVEGACIÓN -->
     <header class="header">
         <div class="container">
             <div class="logo">
+                <img src="assets/images/star_violet.png" alt="" class="logo-icon">
                 <h1>Beast Quiz</h1>
             </div>
             <nav class="navbar">
@@ -26,54 +29,89 @@
     <!-- SECCIÓN CONTACTO -->
     <section class="contact-page">
         <div class="container">
-            <h1>Nuestro Equipo</h1>
-            <p class="contact-subtitle">Conoce a los desarrolladores detrás de Beast Quiz</p>
+            <div class="contact-header">
+                <h1>Nuestro Equipo</h1>
+                <p class="contact-subtitle">Conoce a los desarrolladores detrás de Beast Quiz</p>
+                <div class="header-divider"></div>
+            </div>
 
             <div class="team-members">
+                <!-- MIEMBRO 1 -->
                 <div class="member-card">
-                    <h3>Emanuel Romero</h3>
+                    <img src="assets/images/skin_fox.png" alt="Avatar de Emanuel" class="member-avatar">
+                    <div class="member-header">
+                        <h3>Emanuel Romero</h3>
+                        <p class="member-role">Desarrollador Full Stack</p>
+                    </div>
+                    <div class="member-bio">
+                        <p>Responsable del diseño de arquitectura del sistema y de la implementación de backend y frontend.</p>
+                    </div>
                     <div class="member-links">
                         <a href="https://www.linkedin.com/in/luis-emanuel-romero-duarte" target="_blank" class="member-btn linkedin">
-                            <span>💼</span> LinkedIn
+                            💼 LinkedIn
                         </a>
                         <a href="https://github.com/padredemellis" target="_blank" class="member-btn github">
-                            <span>💻</span> GitHub
+                            💻 GitHub
                         </a>
                     </div>
                 </div>
 
+                <!-- MIEMBRO 2 -->
                 <div class="member-card">
-                    <h3>Ignacio Cabrera</h3>
+                    <img src="assets/images/skin_cat.png" alt="Avatar de Ignacio" class="member-avatar">
+                    <div class="member-header">
+                        <h3>Ignacio Cabrera</h3>
+                        <p class="member-role">Desarrollador Frontend, Diseñador y PM</p>
+                    </div>
+                    <div class="member-bio">
+                        <p>Encargado de la implementación de diseño responsivo, frontend y experiencia de usuario.</p>
+                    </div>
                     <div class="member-links">
                         <a href="https://www.linkedin.com/in/ignacio-cabrera18" target="_blank" class="member-btn linkedin">
-                            <span>💼</span> LinkedIn
+                            💼 LinkedIn
                         </a>
                         <a href="https://github.com/IgnacioCabrera18" target="_blank" class="member-btn github">
-                            <span>💻</span> GitHub
+                            💻 GitHub
                         </a>
                     </div>
                 </div>
 
+                <!-- MIEMBRO 3 -->
                 <div class="member-card">
-                    <h3>Sofia Nuñez</h3>
+                    <img src="assets/images/quiz_sheep.png" alt="Avatar de Sofia" class="member-avatar">
+                    <div class="member-header">
+                        <h3>Sofia Nuñez</h3>
+                        <p class="member-role">Desarrolladora Frontend y Diseñadora</p>
+                    </div>
+                    <div class="member-bio">
+                        <p>Encargada de la implementación de diseño responsivo, frontend y experiencia de usuario.</p>
+                    </div>
                     <div class="member-links">
                         <a href="https://www.linkedin.com/in/sofia-nu%C3%B1ez-19637a35b/" target="_blank" class="member-btn linkedin">
-                            <span>💼</span> LinkedIn
+                             LinkedIn
                         </a>
                         <a href="https://github.com/sofia1098" target="_blank" class="member-btn github">
-                            <span>💻</span> GitHub
+                             GitHub
                         </a>
                     </div>
                 </div>
 
+                <!-- MIEMBRO 4 -->
                 <div class="member-card">
-                    <h3>Martin Suarez</h3>
+                    <img src="assets/images/quiz_frong.png" alt="Avatar de Martin" class="member-avatar">
+                    <div class="member-header">
+                        <h3>Martin Suarez</h3>
+                        <p class="member-role">Desarrollador Backend</p>
+                    </div>
+                    <div class="member-bio">
+                        <p>Especialista en backend con Firebase y Firestore, creando una base de datos confiable, escalable y bien integrada.</p>
+                    </div>
                     <div class="member-links">
                         <a href="https://www.linkedin.com/in/martín-suárez/" target="_blank" class="member-btn linkedin">
-                            <span>💼</span> LinkedIn
+                             LinkedIn
                         </a>
-                        <a href="https://github.com/4zMarto" class="member-btn github" style="opacity: 0.5; cursor: not-allowed;">
-                            <span>💻</span> GitHub
+                        <a href="https://github.com/4zMarto" target="_blank" class="member-btn github">
+                             GitHub
                         </a>
                     </div>
                 </div>
@@ -88,8 +126,7 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Beast Quiz.</p>
-            
+            <p>&copy; 2026 Beast Quiz. Desarrollado por Emanuel, Ignacio, Sofia y Martín</p>
         </div>
     </footer>
 
